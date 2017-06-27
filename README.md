@@ -1,4 +1,5 @@
 # feijidazhan
+
 import random
 import time
 
@@ -6,8 +7,9 @@ import pygame
 from pygame.locals import *
 
 
-# 初始化飞机的坐标，图像
+
 class Initial(object):
+#初始化图像
 
     def __init__(self, screen, x, y, imagepath):
         self.X = x
